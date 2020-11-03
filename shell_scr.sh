@@ -1,7 +1,7 @@
 # Script for commit changes and push to remote repository
 git status
 git commit -a -m "test"
-echo -n " COMMIT Done Successfully "
+echo -e "\n COMMIT Done Successfully \n"
 sleep 2
 git push -u origin master
-echo -n " PUSH Done Successfully "
+echo -e "\n PUSH Done Successfully \n"
